@@ -1,0 +1,4 @@
+interface:
+  display_name: "收敛式代码审核"
+  short_description: "按变更风险核验证据和真实缺陷，通过问题去重、增量复审与停止条件控制审核成本"
+  default_prompt: "请用 $convergent-code-review 审核本次变更，复用有效证据，核实真实问题，并在满足条件后结束审核。"
